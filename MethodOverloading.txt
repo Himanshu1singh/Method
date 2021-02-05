@@ -1,0 +1,37 @@
+
+public class MethodOverloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x=10;
+		int y=20;
+		
+		int r=5;
+		
+		MethodOverloading obj=new MethodOverloading();
+		
+		
+		int Area_rectangle = obj.area(x,y);
+		float Area_circle = obj.area(r);
+		
+		
+		System.out.println(Area_rectangle);
+		System.out.println(Area_circle);
+		
+	}
+	
+	public int area(int x,int y)
+	{
+		int z=x*y;
+		return z;
+	}
+	
+	public float area(int n)
+	{
+		float z=3.14f*n*n;
+		return z;
+	}
+	
+
+}
