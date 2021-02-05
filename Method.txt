@@ -1,0 +1,28 @@
+
+public class Method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		int a=10;
+		int b=20;
+		
+		
+		Method obj=new Method();
+		
+		int result=obj.add(a,b);
+		
+		System.out.print(result);
+		
+		
+	}
+	
+	
+	public static int add(int x,int y)
+	{
+		int z=x+y;
+		return z;
+	}
+
+}
